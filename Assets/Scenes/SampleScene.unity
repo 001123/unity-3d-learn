@@ -1573,300 +1573,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1370356597}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1557449882
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1557449884}
-  - component: {fileID: 1557449883}
-  m_Layer: 0
-  m_Name: SoundManager
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1557449883
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1557449882}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 00124840f66c64d46baaef79fd8056c8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  sounds:
-  - name: oof
-    clip: {fileID: 8300000, guid: f0a9b861091b88a489c8f92af20c9f38, type: 3}
-    volume: 1
-    pitch: 1
-    source: {fileID: 0}
-  - name: coin
-    clip: {fileID: 8300000, guid: 34e5178d087508f438da5b4b700ad43b, type: 3}
-    volume: 1
-    pitch: 1
-    source: {fileID: 0}
-  - name: win
-    clip: {fileID: 8300000, guid: 652481927a1377641917e2ea5c10c074, type: 3}
-    volume: 1
-    pitch: 1
-    source: {fileID: 0}
-  - name: wellcome
-    clip: {fileID: 8300000, guid: d0038d9d635568542a90f26e4b81cd01, type: 3}
-    volume: 1
-    pitch: 1
-    source: {fileID: 0}
-  - name: kill1
-    clip: {fileID: 8300000, guid: 67c3258bbc56a5a4d8fc2cdb60d82a8a, type: 3}
-    volume: 1
-    pitch: 1
-    source: {fileID: 0}
-  - name: kill2
-    clip: {fileID: 8300000, guid: 182915b6ee2d4334c983e43d31e95718, type: 3}
-    volume: 1
-    pitch: 1
-    source: {fileID: 0}
-  - name: kill3
-    clip: {fileID: 8300000, guid: 9c289004a3272d54f9c2f8b26402408b, type: 3}
-    volume: 1
-    pitch: 1
-    source: {fileID: 0}
-  - name: kill4
-    clip: {fileID: 8300000, guid: e1d87c205074e6f48b38ed6e6febd271, type: 3}
-    volume: 1
-    pitch: 1
-    source: {fileID: 0}
-  - name: kill5
-    clip: {fileID: 8300000, guid: 3e72f80fb39608a44a7121fcbcfa0259, type: 3}
-    volume: 1
-    pitch: 1
-    source: {fileID: 0}
-  - name: kill6
-    clip: {fileID: 8300000, guid: d2ac14c971a00af429edaf426d5b3697, type: 3}
-    volume: 1
-    pitch: 1
-    source: {fileID: 0}
-  - name: kill7
-    clip: {fileID: 8300000, guid: 83234a69d1829c2459fc90b1513f8278, type: 3}
-    volume: 1
-    pitch: 1
-    source: {fileID: 0}
-  - name: kill8
-    clip: {fileID: 8300000, guid: e02897cea36e9d3478bbb35618d6659c, type: 3}
-    volume: 1
-    pitch: 1
-    source: {fileID: 0}
-  - name: kill9
-    clip: {fileID: 8300000, guid: e46c9b3600f72a3479050dfffb8690ef, type: 3}
-    volume: 1
-    pitch: 1
-    source: {fileID: 0}
-  - name: kill10
-    clip: {fileID: 8300000, guid: 86d3b58e017e1d1449fd23ce7d1ce112, type: 3}
-    volume: 1
-    pitch: 1
-    source: {fileID: 0}
-  - name: kill11
-    clip: {fileID: 8300000, guid: 32c243b3ac9701d4b82399dc67a071ae, type: 3}
-    volume: 1
-    pitch: 1
-    source: {fileID: 0}
-  - name: kill12
-    clip: {fileID: 8300000, guid: 4236f74fa4870f6438f32d528bf0b519, type: 3}
-    volume: 1
-    pitch: 1
-    source: {fileID: 0}
-  - name: 
-    clip: {fileID: 0}
-    volume: 1
-    pitch: 1
-    source: {fileID: 0}
-  - name: 
-    clip: {fileID: 0}
-    volume: 1
-    pitch: 1
-    source: {fileID: 0}
-  - name: 
-    clip: {fileID: 0}
-    volume: 1
-    pitch: 1
-    source: {fileID: 0}
-  - name: 
-    clip: {fileID: 0}
-    volume: 1
-    pitch: 1
-    source: {fileID: 0}
-  - name: 
-    clip: {fileID: 0}
-    volume: 1
-    pitch: 1
-    source: {fileID: 0}
-  - name: 
-    clip: {fileID: 0}
-    volume: 1
-    pitch: 1
-    source: {fileID: 0}
-  - name: 
-    clip: {fileID: 0}
-    volume: 1
-    pitch: 1
-    source: {fileID: 0}
-  - name: 
-    clip: {fileID: 0}
-    volume: 1
-    pitch: 1
-    source: {fileID: 0}
-  - name: 
-    clip: {fileID: 0}
-    volume: 1
-    pitch: 1
-    source: {fileID: 0}
-  - name: 
-    clip: {fileID: 0}
-    volume: 1
-    pitch: 1
-    source: {fileID: 0}
-  - name: 
-    clip: {fileID: 0}
-    volume: 1
-    pitch: 1
-    source: {fileID: 0}
-  - name: 
-    clip: {fileID: 0}
-    volume: 1
-    pitch: 1
-    source: {fileID: 0}
-  - name: 
-    clip: {fileID: 0}
-    volume: 1
-    pitch: 1
-    source: {fileID: 0}
-  - name: 
-    clip: {fileID: 0}
-    volume: 1
-    pitch: 1
-    source: {fileID: 0}
-  - name: 
-    clip: {fileID: 0}
-    volume: 1
-    pitch: 1
-    source: {fileID: 0}
-  - name: 
-    clip: {fileID: 0}
-    volume: 1
-    pitch: 1
-    source: {fileID: 0}
-  - name: 
-    clip: {fileID: 0}
-    volume: 1
-    pitch: 1
-    source: {fileID: 0}
-  - name: 
-    clip: {fileID: 0}
-    volume: 1
-    pitch: 1
-    source: {fileID: 0}
-  - name: 
-    clip: {fileID: 0}
-    volume: 1
-    pitch: 1
-    source: {fileID: 0}
-  - name: 
-    clip: {fileID: 0}
-    volume: 1
-    pitch: 1
-    source: {fileID: 0}
-  - name: 
-    clip: {fileID: 0}
-    volume: 1
-    pitch: 1
-    source: {fileID: 0}
-  - name: 
-    clip: {fileID: 0}
-    volume: 1
-    pitch: 1
-    source: {fileID: 0}
-  - name: 
-    clip: {fileID: 0}
-    volume: 1
-    pitch: 1
-    source: {fileID: 0}
-  - name: 
-    clip: {fileID: 0}
-    volume: 1
-    pitch: 1
-    source: {fileID: 0}
-  - name: 
-    clip: {fileID: 0}
-    volume: 1
-    pitch: 1
-    source: {fileID: 0}
-  - name: 
-    clip: {fileID: 0}
-    volume: 1
-    pitch: 1
-    source: {fileID: 0}
-  - name: 
-    clip: {fileID: 0}
-    volume: 1
-    pitch: 1
-    source: {fileID: 0}
-  - name: 
-    clip: {fileID: 0}
-    volume: 1
-    pitch: 1
-    source: {fileID: 0}
-  - name: 
-    clip: {fileID: 0}
-    volume: 1
-    pitch: 1
-    source: {fileID: 0}
-  - name: 
-    clip: {fileID: 0}
-    volume: 1
-    pitch: 1
-    source: {fileID: 0}
-  - name: 
-    clip: {fileID: 0}
-    volume: 1
-    pitch: 1
-    source: {fileID: 0}
-  - name: 
-    clip: {fileID: 0}
-    volume: 1
-    pitch: 1
-    source: {fileID: 0}
-  - name: 
-    clip: {fileID: 0}
-    volume: 1
-    pitch: 1
-    source: {fileID: 0}
-  - name: 
-    clip: {fileID: 0}
-    volume: 1
-    pitch: 1
-    source: {fileID: 0}
---- !u!4 &1557449884
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1557449882}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1594300126
 GameObject:
   m_ObjectHideFlags: 0
@@ -2963,3 +2669,72 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e9da7f01d807a1745b3b8421d590afec, type: 3}
+--- !u!1001 &5711626766263866269
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 5711626765245456129, guid: 196f1a93f56d80e4fb8de6d196ae689c,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5711626765245456129, guid: 196f1a93f56d80e4fb8de6d196ae689c,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5711626765245456129, guid: 196f1a93f56d80e4fb8de6d196ae689c,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5711626765245456129, guid: 196f1a93f56d80e4fb8de6d196ae689c,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5711626765245456129, guid: 196f1a93f56d80e4fb8de6d196ae689c,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5711626765245456129, guid: 196f1a93f56d80e4fb8de6d196ae689c,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5711626765245456129, guid: 196f1a93f56d80e4fb8de6d196ae689c,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5711626765245456129, guid: 196f1a93f56d80e4fb8de6d196ae689c,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5711626765245456129, guid: 196f1a93f56d80e4fb8de6d196ae689c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5711626765245456129, guid: 196f1a93f56d80e4fb8de6d196ae689c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5711626765245456129, guid: 196f1a93f56d80e4fb8de6d196ae689c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5711626765245456135, guid: 196f1a93f56d80e4fb8de6d196ae689c,
+        type: 3}
+      propertyPath: m_Name
+      value: SoundManager
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 196f1a93f56d80e4fb8de6d196ae689c, type: 3}
