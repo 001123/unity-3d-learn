@@ -11,13 +11,13 @@ public class PlayerController : MonoBehaviour
     public GameObject winTextObject;
     public GameObject restartBtnObj;
 
+
     private Rigidbody rb;
     private float movementX;
     private float movementY;
 
     private int count;
-    private float timer;
-
+    private float Timer = 0.0f;
 
 
     // Start is called before the first frame update
@@ -25,7 +25,6 @@ public class PlayerController : MonoBehaviour
     {
         rb = GetComponent<Rigidbody>();
         count = 0;
-        timer = 0;
 
         SetCountText();
 
@@ -33,6 +32,7 @@ public class PlayerController : MonoBehaviour
         restartBtnObj.SetActive(false);
 
         //Start the coroutine we define below named ExampleCoroutine.
+        FindObjectOfType<SoundManager>().Play("wellcome");
 
     }
 
@@ -55,16 +55,21 @@ public class PlayerController : MonoBehaviour
 
     private void Update()
     {
+        Timer += Time.deltaTime;
+        if (count < 12)
+        {
+            countText.text = "😎 Score: " + count.ToString() + " - Time: " + Timer.ToString("0.00") + "s";
+        }
     }
 
     void SetCountText()
     {
-        countText.text = "😎 Score: " + count.ToString();
         if (count >= 12)
         {
             winTextObject.SetActive(true);
             restartBtnObj.SetActive(true);
-
+            FindObjectOfType<SoundManager>().Play("win");
+            countText.text = "😎 Score: " + count.ToString() + " - Time: " + Timer.ToString("0.00") + "s";
         }
     }
 
@@ -73,7 +78,11 @@ public class PlayerController : MonoBehaviour
         if (other.gameObject.CompareTag("PickUp"))
         {
             count++;
+
             other.gameObject.SetActive(false);
+
+            FindObjectOfType<SoundManager>().Play("kill" + count.ToString());
+
             SetCountText();
         }
     }
